@@ -1,0 +1,129 @@
+:root{
+    -cinza-escuro: (#2E5266);
+    -cinza-medio: (#6E8898);
+    -cinza-claro:(#9FB1BC);
+    -cinza-claro: (#D3D0CB);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+    
+    
+}
+
+.body{
+    width: 100%;
+    
+    justify-items: center;
+    align-items: center;
+    display: block;
+      
+}
+.body h1{
+    
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2E5266;
+    color: white;   
+}
+.crud{
+    display: flex;
+}
+.menu{
+    height: 100vh;
+    width: 20%;
+    background-color: #6E8898;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.menu ul{
+    
+    margin-left: 30px;
+    list-style: none;
+    padding-top: 20px;
+}
+.menu ul li{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.menu ul li :hover{
+    background-color: #9FB1BC;
+}
+.container{
+    display: block;
+    width: 100%;
+
+}
+.membros{
+    display: inline-flex;
+    padding: 10px;
+    background-color: #9FB1BC;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: left;
+
+}
+.membros h2{
+    align-content: center;
+    margin-right: 20px;
+}
+.membros button{
+    padding: 5px;
+    box-shadow: none;
+    border-radius: 10px;
+    color: white;
+    background: #2E5266;
+    border: solid 3px #D3D0CB;
+
+}
+.addfuncionario{
+    display: flex;
+    width:  800px;
+    height: 400px;
+    background-color: #2E5266;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin: 20px;
+    justify-content: center;
+    
+    
+
+}
+.addfuncionario form span{
+    color: white;
+
+}
+.addfuncionario form input{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+
+}
+.addfuncionario form select{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+.addfuncionario form {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.addfuncionario form button{
+    padding:  10px;
+    border-radius: 10px;
+    background-color: #44CF6C;
+    border: none;
+    color: white;
+    font-weight: 600;
+}

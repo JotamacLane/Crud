@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/crud.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="body">
+        <h1>Página de funcionário</h1>
+        <div class="crud">
+            <nav class="menu">
+                <ul>
+                    <li>Profile</li>
+                    <li>Users</li>
+                    <li>Control Panel</li>
+
+                </ul>
+            </nav>
+        
+            <div class="container">    
+                <div class="membros">
+                    <h2 class="members">Membros</h2>
+                    <button class="add">Adicionar</button>
+                </div>
+                
+                <div class="addfuncionario">
+                    <form action="">
+                            <span class="nome">Nome</span>
+                            <input type="text" placeholder="Nome do funcionário">
+                            <span class="email">email</span>
+                            <input type="email" placeholder="email">
+                            <span class="status">status</span>
+                            <select name="status" id="status">
+                                <option class="ativo">Ativo</option>
+                                <option class="inativo" value="inativo">Inativo</option>
+                            </select>
+                            <button type="submit">Adicionar</button>
+                    </form>
+                </div>
+                <div class="users">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="crud.js"></script>
+</body>
+</html>
